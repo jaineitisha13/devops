@@ -1,0 +1,306 @@
+    1  vi sample.txt
+    2  history
+    3  cd  /usr/local/jenkins/bin
+    4  ls
+    5  cd  /usr/local/jenkins/bin
+    6  cd /usr/local
+    7  ls
+    8  vi /etc/hostname
+    9  exit
+   10  tar -xzf /home/centos/jdk*.tar.gz --directory /usr/local
+   11  tar -xzf /home/centos/jdk-8u211-linux-x64.tar.gz --directory /usr/local
+   12  tar -xzf /home/centos/jdk-8u211-linux-x64.tar.gz /usr/local
+   13  tar -xzf /home/centos/jdk-8u211-linux-x64.tar.gz --directory /usr/local
+   14  tar -xzf /home/centos/jdk-8u211-linux-x64.tar.gz --directory /usr/local
+   15  ls
+   16  pwd
+   17  ls
+   18  vim sample.xt
+   19  vim sample.txt
+   20  vi sample.txt
+   21  cd /usr/local
+   22   cd jenkins/bin
+   23  cd jenkins
+   24  ls
+   25  pwd
+   26  ls
+   27  vi /etc/hostname
+   28  man
+   29  man ls
+   30  ls -lrt
+   31  chmod 774 sample.txt
+   32  ls -lrt
+   33  vi sample.txt
+   34  w
+   35  whoami
+   36  df -h
+   37  ls -l
+   38  ls -a
+   39  mkdir -p test/tanu/anu/saturday
+   40  ls
+   41  ls -l
+   42  ls -a 
+   43  cd /test
+   44  cd .. /test
+   45  tree
+   46  whereis tree
+   47  ls test
+   48  cd /test
+   49  echo $PATH
+   50  cd ..
+   51  cd test
+   52  cd /test
+   53  tree
+   54  yum -install tree
+   55  yum install tree
+   56  tree
+   57  ll test
+   58  mkdir tanu/test
+   59  ls -l 
+   60  sudo su-
+   61  sudo su -
+   62  ls -a
+   63  ls test
+   64  mkdir test/ {eiti,akku}
+   65  mkdir test/{eiti,akku}
+   66  ls test
+   67  ls -lrt
+   68  vim sample.txt
+   69  yum install vim
+   70  cd /ect
+   71  cd /etc
+   72  ls
+   73  yum search tree
+   74  vim sample.txt
+   75  ls-lrt
+   76  ls -lrt
+   77  zip -r test.zip test
+   78  sudo su - 
+   79  ls -lrt | tail-1
+   80  man tar
+   81  ls -lrt
+   82  ls -lrt | grep test
+   83  ls -lrt | grep test | grep zip
+   84  mkdir /home/centos/test23
+   85  cd /home/
+   86  rmdir centos/test123
+   87  ls -lrt 
+   88  tail -f
+   89  vi sample.txt
+   90  find /root/ -name test
+   91  touch tanu123
+   92  ls -lrt tan123
+   93  ls -l root/ tan123
+   94  ls-a
+   95  ls -a
+   96  cd /tanu123
+   97  ps man
+   98  ps -h
+   99  mans ps
+  100  man ps
+  101  ps -ef -| wc -l | grep mysql
+  102  ps -- help
+  103  ps-ef
+  104  ps -ef
+  105  cat /etc/passwd
+  106  ll tanu123 
+  107  echo $SHELL
+  108  sh
+  109  cat /etc/shadow - password file
+  110  telnet www.google.com
+  111  telnet localhost 3306
+  112  ping
+  113  ping google.com
+  114  touch .filename
+  115  ls -a
+  116  vim test .sh 
+  117  ls -l test.sh
+  118  ls -l test .sh
+  119  vi test. sh
+  120  ./test.sh
+  121  vi test. sh
+  122  vim for_loop.txt
+  123  ./for_looop.txt
+  124  ./for_lop.sh
+  125  ./for_loop.sh
+  126  telnet www.google.com 80
+  127  sudo su -
+  128  cat /var/log/secure
+  129  vim  exe1.sh
+  130  yum install git
+  131  ls -a
+  132  ls
+  133  cd /usr /local
+  134  cd /usr/local
+  135  git clone https://github.com/jaineitisha13/devops.git
+  136  cd devops/
+  137  ls -la
+  138  cd /usr/local
+  139  ls devops
+  140  cd devops
+  141  git branch
+  142  git fetch -f
+  143  git branch etlhive
+  144  git checkout master
+  145  git checkout etlhive
+  146  git checkout -b fix
+  147  git branch 
+  148  git branch -d fix
+  149  git branch -D fix
+  150  git checkout master
+  151  git branch -d fix
+  152  git checkout -b fix
+  153  ls -a
+  154  vi file1
+  155  git add file1 
+  156  git commit -m "New fix"
+  157  git checkout master
+  158  ls -lrt
+  159  cat file1
+  160  git merge 
+  161  git merge fix
+  162  git checkout fix
+  163  git push -u origin fix
+  164  history >/home/centos/sat8_git.txt
+  165  git checkout master
+  166  vim file1
+  167  git add .
+  168  git commit -m "Update fix in master"
+  169  git checkout fix
+  170  vim file1
+  171  git status
+  172  git add .
+  173  git status
+  174  git add.
+  175  git add file1 
+  176  git commit -m "Updated in fix branch "
+  177  git log --oneline
+  178  git checkout master
+  179  vi file1 
+  180  git status
+  181  git add file1
+  182  git commit -m "latest changes "
+  183  git merge fix
+  184  vi file1 
+  185  git status
+  186  git add file1
+  187  git commit -m "Merging fix with master"
+  188  git push -u origin master
+  189  git log --oneline -5
+  190  git checkout master
+  191  vi rebase_t1
+  192  git add rebase_t1 
+  193  git commit -m "Adding a new rebase file"
+  194  vi rebase_t1 
+  195  git status
+  196  git add 
+  197  git add rebase_t1 
+  198  git commit -m "Rebase with upcoming changes"
+  199  git checkout fix
+  200  git checkout master
+  201  git status
+  202  git push 
+  203  git push origin master
+  204  git checkout fix
+  205  git status
+  206  git pull origin master
+  207  git branch
+  208  git rebase master
+  209  git branch -r
+  210  git log --oneline 
+  211  git diff 
+  212  git diff 5789d53 
+  213  git diff 94a3073 856d3cf
+  214  mkdr mylocalrepo
+  215  mkdir  mylocalrepo
+  216  ls
+  217  cd mylocalrepo/
+  218  ls -a
+  219  vim file2.xt
+  220  git init
+  221  ls-lrt
+  222  ls -lrt
+  223  ls -la
+  224  ls -a
+  225  git add file2.xt 
+  226  git commit -m "Updating new file"
+  227  git push origin -u mylocalrepo
+  228  git remote -v
+  229  git push -u origin mylocalrepo
+  230  git remote -v
+  231  git branch
+  232  cd /usr/loal
+  233  cd /usr/local
+  234  ls -a
+  235  cd devops
+  236  ls -a
+  237  cd /udr/local
+  238  cd /usr/local
+  239  ls -a
+  240  cd  devops 
+  241  git log --oneline
+  242  cd /usr/local
+  243  ls -a
+  244  vim tanu_git.txt
+  245  git status
+  246  git clone https://github.com/jaineitisha13/devops.git
+  247   cd usr/local
+  248  ls -a
+  249  cd /devops
+  250  cd.. /devops
+  251  cd devops
+  252  vim tanu_git.txt
+  253  git status
+  254  git add tanu_git.txt 
+  255  git status
+  256  git config --global user.email "jeitisha@gmail.com"
+  257  git commit -m "Adding the text file"
+  258  git push
+  259  vi ./netrc
+  260  git push
+  261  git log --oneline
+  262  vim file1
+  263  git status
+  264  ls
+  265  vi tanu_git.txt
+  266  git commit -m "new changes"
+  267  git push
+  268  git add tanu_git.txt 
+  269  git commit -m "updating the changes "
+  270  git push
+  271  git log --oneline 
+  272  git revert 7ea96e7
+  273  git log --oneline
+  274  vi new1.txt
+  275  git status
+  276  git log --oneline
+  277  git push
+  278  git log --oneline
+  279  cd /usr/local
+  280  ls -a
+  281  cd devops
+  282  vim john.txt
+  283  git branch
+  284  git checkout master
+  285  vim john.txt
+  286  git status
+  287  git stash
+  288  git stash save "writing in file"
+  289  vim dome.txt
+  290  git status
+  291  git stash save dome.txt 
+  292  git add dome.txt 
+  293  git status
+  294  git stash save "Saving file "
+  295  git stash pop stash@{0}
+  296  vim bcbs_1.txt
+  297  git stats
+  298  git status
+  299  git add .
+  300  git status
+  301  git stash 
+  302  vi bcbs1.txt
+  303  history > /home/centos/sun19.txt
+  304  git status
+  305  history > /home/centos/sun19.txt
+  306  history > sun19_may.txt
